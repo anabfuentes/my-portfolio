@@ -1,7 +1,7 @@
 /*********************************** Global Styles ****************************************/
 
 html {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 body {
@@ -9,12 +9,16 @@ body {
     color: #001F3F;
     font-size: 1em;
     text-align: left;
+    background-color:  #EBBDBD;
 }
 
 
 .content-wrapper {
-    width: 100%;
-    margin: 50px 0;
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
 }
 
 ul,
@@ -45,14 +49,14 @@ h2 {
 }
 
 h3  {
-    font-size: 1.125em;
+    font-size: 1.25em;
     font-weight: 500;
     margin: 20px 0;
 }
 
 p {
-    font-size: .875em;
     line-height: 1.285;
+	font-size: 1rem;
 }
 
 img {
@@ -73,29 +77,17 @@ header {
 header .content-wrapper {
     display:flex;
     justify-content:center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
-}  
-  
-
-header h1 {
-    color: #001F3F;
-    font-family: 'Homemade Apple', cursive;
-    font-size: 2.5em;
-}
-
-header p {
-    font-family: 'Fraunces', serif;
-    font-size: 1.875em;
-    font-weight: 500;
     margin: 0;
 }
 
 header nav {
-    width: 60%;
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: 700;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+    margin-top: 30px;
 }
 
 header nav ul {
@@ -110,14 +102,93 @@ nav ul li {
     font-family: 'Fraunces', serif;
     font-size: 1.125em;
 }
+  
+
+header h1 {
+    color: #001F3F;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+header p {
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header-text {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 
 /*Footer Styles*/
 
 footer {
     display: flex;
     align-items: center;
-    flex-direction: column;
     text-align: center;
     background-color: #001F3F;
     color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/************************** Main Sections Styles *******************************/
+
+main {
+    display:flex;
+	justify-content:center;
+}
+
+/*About Me Section Styles*/
+
+.about {
+    margin-top: 80px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+
+/*************************** Media Queries *************************************/
+/****** MEDIA QUERIES *****/
+
+@media all and (min-width: 768px) {
+
+
+}
+
+@media all and (min-width: 1200px) {
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content:space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+}
+
+	header nav {
+	width: 21%;
+}
+
+	header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
 }
