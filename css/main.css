@@ -33,7 +33,8 @@ h2 {
     width: 100%;
 }
 
-h3 {
+h3,
+h4 {
     font-family: 'Fraunces', serif;
     font-weight: 400;
     text-align: center;
@@ -46,8 +47,7 @@ p {
 
 .heading-section {
     background-color: #EBBDBD;
-    width: 100%; 
-    height: 100%;
+
 }
 
 img {
@@ -77,6 +77,8 @@ header nav ul {
     text-align: center;
     flex-flow: row wrap;
     align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 header nav ul li {
@@ -89,6 +91,8 @@ header nav ul li {
 }
 
 header p {
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-weight: 600;
 }
 
@@ -102,17 +106,42 @@ header p {
     flex-flow: row wrap;
 }
 
-.skill-list h3 {
+.skill-text h3,
+.skill-text {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-
 
 }
 
-.skill-list {
-    display: inline-flex;
-    text-align: center;
+/************************** Tablet Styles) *******************************/
 
+@media only screen and (min-width: 768px) {
+
+
+header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 80px;
+}
+
+header nav ul li {
+    font-weight: 500;
+    font-size: 1.15em;
+}
+
+.skill-text h3,
+.skill-text {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 
 }
 
-/************************** Footer Styles (Mobile) *******************************/
+}
+
+/************************** Desktop Styles ******************************/
+
+@media only screen and (min-width: 1200px) {
+
+}
