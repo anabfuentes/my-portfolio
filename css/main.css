@@ -77,8 +77,8 @@ header nav ul {
     text-align: center;
     flex-flow: row wrap;
     align-items: flex-start;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding: 30px 0 60px 0;
+    margin: 0;
 }
 
 header nav ul li {
@@ -91,13 +91,35 @@ header nav ul li {
 }
 
 header p {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
     font-weight: 600;
 }
 
 
 /************************** Main Styles (Mobile) *********************************/
+.projects-wrapper {
+    margin: 0;
+}
+
+.projects-wrapper h2 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.projects-wrapper img {
+    margin: 0 40px;
+}
+
+.projects-wrapper h3 {
+    text-decoration: underline;
+}
+
+.all-unplugged h3 {
+    padding-top: 20px;
+}
+
+
+
 
 .skills-wrapper {
     background-color: #A5CCE8;
