@@ -51,7 +51,15 @@ p {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+    
 }
 
 a {
@@ -107,7 +115,7 @@ header p {
 }
 
 .projects-wrapper img {
-    margin: 0 40px;
+    
 }
 
 .projects-wrapper h3 {
