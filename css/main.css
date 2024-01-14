@@ -63,6 +63,8 @@ img {
 }
 
 a {
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #556B2F;
     text-decoration: none;
@@ -142,6 +144,59 @@ header p {
     flex-direction: column;
     text-align: center;
 
+}
+
+/************************* Footer Styles (Mobile) ***********************/
+
+footer {
+    background-color: #001F3F;
+    color:#FFFFFF;
+    margin: 0;
+}
+
+footer h2 {
+    padding-top: 80px;
+    margin: 0;
+}
+
+.hire-me h3 {
+    padding: 0;
+    margin: 60px 0 30px 0;
+}
+
+.hire-me p {
+    padding: 0;
+    margin: 0;
+}
+
+.follow-me h3{
+    padding: 60px 0 30px 0;
+}
+
+.meet-up h3 {
+    padding: 60px 0 30px 0;
+    margin: 0;
+}
+
+.meet-up .riverside {
+    margin: 0;
+    padding: 0;
+}
+
+.meet-up .socal {
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+.copyright {
+    padding: 30px 0;
+    background-color: #A5CCE8;
+    color:#001F3F;
+    margin: 0;
+}
+
+.copyright span {
+    font-family: 'Homemade Apple', cursive;
 }
 
 /************************** Tablet Styles) *******************************/
