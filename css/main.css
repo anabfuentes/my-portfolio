@@ -24,6 +24,7 @@ h1 {
     text-align: center;
     font-family: 'Homemade Apple', cursive;
     font-size: 2.5em;
+    color:#556B2F;
 }
 
 h2 {
@@ -31,6 +32,7 @@ h2 {
     font-weight: 600;
     text-align: center;
     width: 100%;
+    font-size: 2em;
 }
 
 h3,
@@ -62,11 +64,21 @@ img {
     
 }
 
+.skill,
+.tool {
+    border: solid 1px #556B2F;
+    background-color: #556B2F;
+    color:#FFFFFF;
+    padding: 10px;
+    margin: 10px;
+
+}
+
 a {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #556B2F;
+    color: #EBBDBD;
     text-decoration: none;
 }
 
@@ -93,7 +105,6 @@ header nav ul {
 
 header nav ul li {
     font-weight: 400;
-    color: #556B2F;
     margin-top: 30px;
     padding: 5px;
     display: block;
@@ -107,17 +118,11 @@ header p {
 
 
 /************************** Main Styles (Mobile) *********************************/
-.projects-wrapper {
-    margin: 0;
-}
 
 .projects-wrapper h2 {
     padding-top: 80px;
     padding-bottom: 20px;
-}
-
-.projects-wrapper img {
-    
+    margin: 0;
 }
 
 .projects-wrapper h3 {
@@ -127,9 +132,6 @@ header p {
 .all-unplugged h3 {
     padding-top: 20px;
 }
-
-
-
 
 .skills-wrapper {
     background-color: #A5CCE8;
@@ -144,6 +146,11 @@ header p {
     flex-direction: column;
     text-align: center;
 
+}
+
+.about {
+    background-color: #EBBDBD;
+    margin: 0;
 }
 
 /************************* Footer Styles (Mobile) ***********************/
@@ -197,6 +204,7 @@ footer h2 {
 
 .copyright span {
     font-family: 'Homemade Apple', cursive;
+
 }
 
 /************************** Tablet Styles) *******************************/
