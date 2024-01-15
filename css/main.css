@@ -18,6 +18,7 @@ ol {
     list-style: none;
     font-family: 'Fraunces', serif;
     font-size: .825em;
+    padding: 0;
 }
 
 h1 {
@@ -66,7 +67,7 @@ img {
 
 .skill,
 .tool {
-    border: solid 1px #556B2F;
+    border: none;
     background-color: #556B2F;
     color:#FFFFFF;
     padding: 10px;
@@ -83,8 +84,15 @@ a {
 }
 
 button {
-    display: flex;
-    justify-content: center;
+    background-color:#556B2F;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.15em;
+    border-radius: 10px;
+
 }
 
 /************************** Header Styles (Mobile) *******************************/
@@ -127,6 +135,24 @@ header p {
 
 .projects-wrapper h3 {
     text-decoration: underline;
+    padding: 20px 0 40px 0;
+    margin: 0;
+}
+
+.project-description {
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+.projects-wrapper form {
+    display: flex;
+    justify-content: center;
+
+}
+
+.projects-wrapper button {
+    margin: 40px 0;
+
 }
 
 .all-unplugged h3 {
@@ -143,7 +169,8 @@ header p {
 .skill-text h3,
 .skill-text {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
     text-align: center;
 
 }
@@ -207,7 +234,7 @@ footer h2 {
 
 }
 
-/************************** Tablet Styles) *******************************/
+/************************** Tablet Styles *******************************/
 
 @media only screen and (min-width: 768px) {
 
