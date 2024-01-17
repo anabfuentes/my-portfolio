@@ -8,20 +8,19 @@ html {
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-content: center;
     font-size: 1em;
     font-family: 'Didact Gothic', sans-serif;
     color: #001F3F;
     background-color: white;
-    margin: 0;
 
 }
 
-ul,
-ol {
+ul {
     list-style: none;
     font-family: 'Fraunces', serif;
-    font-size: .9em;
-    padding: 0;
+    font-size: 1em;
 }
 
 h1 {
@@ -29,14 +28,16 @@ h1 {
     font-family: 'Homemade Apple', cursive;
     font-size: 2.5em;
     color:#556B2F;
+    margin: 0 20px;
 }
 
 h2 {
     font-family: 'Fraunces', serif;
     font-weight: 600;
     text-align: center;
-    width: 100%;
     font-size: 2em;
+    margin: 0 20px;
+    width: 90%;
 }
 
 h3,
@@ -44,47 +45,43 @@ h4 {
     font-family: 'Fraunces', serif;
     font-weight: 400;
     text-align: center;
-    width: 100%;
-    font-size: 1.75em;
+    font-size: 1.5em;
+    margin: 0 20px;
 }
 
 p {
     text-align: center;
+    margin: 0 20px;
 }
 
-.heading-section {
+.header-wrapper {
     background-color: #EBBDBD;
 
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    
-    
+    margin: 0 20px;
 }
+    
 
 .skill,
 .tool {
     border: none;
     background-color: #556B2F;
     color:#FFFFFF;
-    padding: 10px;
-    margin: 10px;
 
 }
 
-a {
+.social-icons {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    text-align: center;
-    color: #EBBDBD;
-    text-decoration: none;
+    font-size: 2.5em;
+    padding-bottom: 10px;
 }
 
 button {
@@ -112,14 +109,14 @@ header nav ul {
     flex-flow: row wrap;
     align-items: flex-start;
     padding: 30px 0 60px 0;
-    margin: 0 10px;
+    margin: 0;
 }
 
 header nav ul li {
     font-weight: 400;
     margin-top: 30px;
     padding: 5px;
-    display: block;
+/*    display: block;*/
 
 }
 
@@ -134,24 +131,23 @@ header p {
 .projects-wrapper h2 {
     padding-top: 80px;
     padding-bottom: 20px;
-    margin: 0;
 }
 
 .projects-wrapper h3 {
     text-decoration: underline;
     padding: 20px 0 40px 0;
-    margin: 0;
+
 }
 
 .projects-wrapper p {
-    margin: 0 20px;
-    padding: 0 0 20px 0;
+    margin: 10px 20px;
+    padding: 0;
     text-align: left;
 }
 
 .projects-wrapper .project-description {
-    margin: 0;
-    padding: 0 0 30px 0;
+    margin: 0 20px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -166,15 +162,12 @@ header p {
 
 }
 
-.all-unplugged h3 {
-    padding-top: 20px;
-}
-
 .skills-wrapper {
     background-color: #A5CCE8;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
+    padding-bottom: 80px;
 }
 
 .skill-text h3,
@@ -186,16 +179,36 @@ header p {
 
 }
 
+.skill,
+.tool {
+    padding: 10px;
+    margin: 10px 10px;
+
+}
+
 .about {
     background-color: #EBBDBD;
     margin: 0;
+    padding-top: 80px;
     width: 100%;
 }
 
+.about h2 {
+    padding-bottom: 30px;
+}
 
+.about h3 {
+    padding-top: 30px; 
+    font-size: 1.75em;
+}
 
 .about h4 {
     font-size: 1.5em;
+    padding: 20px 0;
+}
+
+.about p {
+    padding: 0 20px 30px 20px;
 }
 
 /************************* Footer Styles (Mobile) ***********************/
@@ -208,7 +221,6 @@ footer {
 
 footer h2 {
     padding-top: 80px;
-    margin: 0;
 }
 
 .hire-me h3 {
@@ -221,30 +233,36 @@ footer h2 {
     margin: 0;
 }
 
-.follow-me h3{
+.follow-me h3,
+.meet-up h3 {
     padding: 60px 0 30px 0;
 }
 
-.meet-up h3 {
-    padding: 60px 0 30px 0;
-    margin: 0;
+.linkedin {
+    margin-right: 10px;
+}
+
+.github {
+    margin-left: 10px;
 }
 
 .meet-up .riverside {
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .meet-up .socal {
-    margin: 0;
-    padding: 0 0 30px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .copyright {
     padding: 30px 0;
     background-color: #A5CCE8;
     color:#001F3F;
-    margin: 0;
 }
 
 .copyright span {
@@ -271,9 +289,10 @@ footer h2 {
 @media only screen and (min-width: 1200px) {
 
 header nav ul {
-        display: flex;
-        justify-content: flex-end;
-        padding-bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    margin: 0 20px;
 }
 
 header nav ul li {
