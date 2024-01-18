@@ -21,9 +21,8 @@
 
 <body>
 
-<div class="header-wrapper">
-    <header>
-    <div>
+<header>
+    <div class="content-wrapper">
         <div class="nav-wrapper">
             <nav>
                 <ul>
@@ -34,20 +33,21 @@
                 </ul>
             </nav>
         </div>
-        <div>
+         <div class="intro-text">
          <h1>Hi, I'm Ana Fuentes.</h1>
          <p>I'm a Front End Web Developer based in sunny Southern California who loves creating beautiful and functional websites.</p>
         </div>
     </div>
-    </header>
-</div>
+</header>
 
- <main>
-    <div class="main-wrapper">
+<main>
+    <article class="profile">
+        <div class="content-wrapper">
          <div class="projects-wrapper">
+            <section id="work">
             <h2>Projects</h2>
 
-                <div class="all-unplugged">
+                <div class="project all-unplugged">
                     <img src="images/unplugged.png" alt="Unplugged Retreat homepage">
                     <h3>Unplugged</h3>
                     <p class="project-description">A multi-page responsive website coded with Flebox to manage it's multiple sections. Built mobile-first, the design is responsive and adapts to tablets and desktops for a customized user experience.</p>
@@ -58,7 +58,7 @@
                      </form>
                 </div>
 
-                <div class="all-sticky-note">
+                <div class="project all-sticky-note">
                     <img src="images/sticky-note-ui.png" alt="Sticky Note App homepage">
                     <h3>Sticky Note App</h3>
                     <p class="project-description">An interactive app that allows users to create sticky notes to keep track of to-do’s and reminders. The notes are saved to local storage so the user can come back to their notes and JSX  ES6 manages data flow to easily add, delete, and search notes.</p>
@@ -69,7 +69,7 @@
                      </form>
                 </div>
 
-                <div class="all-jubilee">
+                <div class="project all-jubilee">
                     <img src="images/j-austen.png" alt="Jubilee Austen's portfolio homepage">
                     <h3>Jubilee Austen</h3>
                     <p class="project-description">A one-page static website created with the use of HTML5 and CSS3 to code and style the portfolio site to the specifications of the design comp. Chrome Devtools and text editors helped me bring this project to fruition!</p>
@@ -80,7 +80,7 @@
                     </form>
                 </div>
 
-                <div class="all-guess-game">
+                <div class="project all-guess-game">
                     <img src="images/guess-the-word.png" alt="Guess the Word Game homepage">
                     <h3>Guess the Word Game</h3>
                     <p class="project-description">Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their guesses, they win! I was able to use my skills with vanilla JavaScript to manipulate the DOM and create this game.</p>
@@ -90,10 +90,12 @@
                         <button type="submit">View</button>
                     </form>
                 </div>
+            </section>
         </div>
     </div>
 
     <div class="skills-wrapper">
+        <section id="skills">
         <h2>Skills</h2>
             <div class="skill-text">
                 <div>
@@ -117,8 +119,11 @@
                         </ul>
                 </div>
             </div>
+        </section>
+    </article>
     </div>
 
+    <section id="about">
     <div class="about">
         <h2>About Me</h2>
         <img src="images/af.jpg" alt="Portrait of Ana Fuentes">
@@ -130,11 +135,12 @@
         <p>I’m primarily a front end developer, but as a part time art student, I know plenty about UX and UI design as well. I’m very excited to use my expertise to continue to create dazzling platforms.</p>
         <p>When I’m not coding or in an art course, you can find me drinking coffee, cuddling with my cats (Anubis and Cleo), and watching an old movie on the Criterion Collection channel.</p>
     </div>
-    </div>
+</div>
+</section>
 </main>
 
 <footer>
-    <div class="footer-wrapper">
+    <div class="content-wrapper">
         <h2>Get in Touch</h2>
             <div class="hire-me">
                 <h3>Hire Me</h3>
@@ -156,9 +162,11 @@
     </div>
 </footer>
 
+<section id="copyright">
 <div class="copyright">
     <p>Copyright 2023 | <span>Ana Fuentes</span></p>
 </div>
+</section>
 
 </body>
 </html>
