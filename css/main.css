@@ -44,11 +44,11 @@ h3 {
 }
 
 h4 {
-    font-size: .75rem;
+    font-size: .90rem;
 }
 
 h5 {
-    font-size: .5rem;
+    font-size: .75rem;
 }
 
  
@@ -81,6 +81,16 @@ figure {
 
 address {
     font-style: normal;
+}
+
+button {
+    border: 1px solid #0D0D0D;
+    background-color: #0D0D0D;
+    color:#D9D7CC;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
 }
   
 
@@ -141,6 +151,10 @@ nav {
     padding-bottom: 60px;
 }
 
+#about h5 {
+    margin-bottom: 40px;
+}
+
 footer {
     padding: 80px 0;
 }
@@ -154,7 +168,7 @@ h3 {
 }
 
 h4 {
-    margin: 0 0 40px 0;
+    margin: 20px 0 40px 0;
 }
 
 .project-description {
@@ -200,10 +214,6 @@ header {
     padding-bottom: 60px;
 }
 
-nav {
-    margin-bottom: 60px;
-}
-
 header nav ul li {
     font-size: .75rem;
     margin-bottom: 20px;
@@ -215,6 +225,7 @@ header nav ul li {
 header nav ul {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
 }
 
 header h1 {
@@ -263,30 +274,17 @@ header h2 {
     width: 100%;
 }
 
-.skills-wrapper {
+#skills {
     padding-bottom: 80px;
 }
 
-.skills-wrapper h2 {
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.skill-text h3 {
+#skills h3 {
     margin-bottom: 20px;
 }
 
-.skill-text h3,
-.skill-text {
-    text-align: center;
-
-}
-
-.skill-list {
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    padding: 0;
+#skills h4 {
+    margin: 40px 0 40px 0;
+    font-weight: bold;
 }
 
 .lang-wrapper p,
@@ -355,6 +353,10 @@ footer .social-icons li i {
     font-size: 1.875rem;
 }
 
+hr {
+    border-top: .5px solid #595959;
+}
+
 .copyright {
     font-family: "Playfair Display", serif;
     font-weight: 500;
@@ -365,13 +367,6 @@ footer .social-icons li i {
 
 @media only screen and (min-width: 481px) {
 
-.skill-text h3,
-.skill-text {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-
-}
 
 }
 
@@ -379,16 +374,5 @@ footer .social-icons li i {
 
 @media only screen and (min-width: 1200px) {
 
-header nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 80px;
-    margin: 0 20px;
-}
-
-header nav ul li {
-    font-weight: 500;
-    font-size: 1.15em;
-}
 
 }
