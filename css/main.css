@@ -1,20 +1,16 @@
 /*************************** Global Styles *******************************/
 html {
-    color: #001F3F;
+    color:#0D0D0D;
     font-size: 1em;
     line-height: 1.4;
 }
 
 body {
     font-size: 1em;
-    font-family: 'Didact Gothic', sans-serif;
-    color: #001F3F;
-    background-color: white;
+    font-family: "Jost", sans-serif;
+    color:#0D0D0D;
+    background-color: #D9D7CC;
 
-}
-
-.content-wrapper {
-    width: 85%;
 }
 
 ul {
@@ -24,53 +20,71 @@ ul {
     padding: 0;
 }
 
-p,
-li {
-    line-height: 1.5;
-}
-
-
-h1, 
-h2, 
-h3, 
-h4 {
-    margin: 0;
-}
-
-h2,
-h3,
-h4 {
-    line-height: 1.5;
-    font-family: 'Fraunces', serif;
+a {
+    color: #0D0D0D;
+    text-decoration: none;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    font-size: 2.5em;
-    color:#556B2F;
-    margin-bottom: 0 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 100%;
 }
 
 h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 600;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.25rem;
+    width: 100%;
 }
 
-h3,
+h3 {
+    font-size: 1rem;
+}
+
 h4 {
-    font-weight: 400;
-    font-size: 1.75rem;
+    font-size: .75rem;
 }
 
-
-header {
-    background-color: #EBBDBD;
-
+h5 {
+    font-size: .5rem;
 }
+
+ 
+h3, 
+h4,
+h5 {
+    line-height: 1.5;
+    width: 100%;
+    font-family: "Archivo", sans-serif;
+    text-transform: uppercase;
+}
+
+p,
+li {
+    line-height: 1.5;
+    font-size: .75rem;
+}
+
+span {
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+  
+
+/******** STRUCTURAL STYLES ***********/
 
 header,
 #work,
@@ -83,49 +97,27 @@ footer {
     flex-flow: row wrap;
 }
 
-img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 0 20px;
+.content-wrapper {
+    width: 85%;
 }
 
-#work h2 {
+#work p,
+#about p {
     width: 100%;
+    text-align: left;
 }
 
-#skills {
-    background-color: #A5CCE8;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
 }
 
-#about {
-    background-color: #EBBDBD;
+p {
+    margin: 0;
 }
-    
-
-.skill,
-.tool {
-    border: none;
-    background-color: #556B2F;
-    color:#FFFFFF;
-
-}
-
-
-button {
-    background-color:#556B2F;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.15em;
-    border-radius: 10px;
-
-}
-
-/************************** Header Styles (Mobile) *******************************/
 
 header {
     padding-top: 30px;
@@ -133,67 +125,142 @@ header {
 }
 
 nav {
-margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+#work {
+    padding-top: 60px;
+}
+
+#skills {
+    padding-bottom: 80px;
+}
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer {
+    padding: 80px 0;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 0 0 40px 0;
+}
+
+.project-description {
+    margin: 0 0 30px 0;
+}
+
+.project-link {
+    margin: 40px 0 60px 0;
+}
+
+figure {
+    margin: 20px 0 40px 0;
+}
+
+.skills-header {
+    margin-bottom: 20px;
+}
+
+.about-info h3 {
+    margin: 40px 0 40px 0;
+}
+
+.about-text {
+    margin: 0 0 30px 0;
+}
+
+#contact h3 {
+    margin-bottom: 60px;
+}
+
+.contact-info {
+    margin: 0 0 60px 0;
+}
+
+.contact-header {
+    margin: 0 0 40px 0;
+  }
+
+/***************** BASE HEADER STYLES *******************/
+
+header {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+nav {
+    margin-bottom: 60px;
 }
 
 header nav ul li {
-font-size: .75rem;
-margin-bottom: 20px;
-font-weight: bold;
+    font-size: .75rem;
+    margin-bottom: 20px;
+    font-family: "Archivo", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-between;
+}
+
+header h1 {
+    width: 100%;
+}
+
+header h2 {
+    width: 100%;
+    font-weight: 500;
+}
+
+
+/****************** MAIN PAGE - MOBILE STYLES *****************/
+
+/*PORTFOLIO*/
+
+#work,
+#skills {
+    width: 100%;
+}
+
+#work h3 {
+    width: 100%;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
     flex-flow: row wrap;
 }
 
-
-header p {
-    padding: 30px;
-    font-weight: 600;
-}
-
-
-/************************** Main Styles (Mobile) *********************************/
-
-#work {
+.project {
     width: 100%;
-    padding-top: 60px;
-}
-
-.projects-wrapper h2 {
-    padding-top: 80px;
-    padding-bottom: 20px;
-}
-
-.projects-wrapper h3 {
-    text-decoration: underline;
-    padding: 20px 0 40px 0;
-
-}
-
-.projects-wrapper p {
-    margin: 10px 20px;
-    padding: 0;
-    text-align: left;
-}
-
-.projects-wrapper .project-description {
-    margin: 0 20px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-.projects-wrapper form {
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
 }
 
-button {
-    margin: 40px 0;
+.project h4 {
+    font-weight: 500;
+}
 
+.project figure {
+    width: 100%;
 }
 
 .skills-wrapper {
@@ -222,94 +289,76 @@ button {
     padding: 0;
 }
 
-.skill,
-.tool {
-    padding: 10px;
-    margin: 10px 10px;
-
+.lang-wrapper p,
+.tool-wrapper p {
+    border: .5px solid #595959;
+    padding: 15px 0;
+    margin: 20px 0;
 }
+
+
+.tool {
+    width: 100%;
+}
+
+/* ABOUT */
 
 #about {
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
-.about h2 {
-    padding-bottom: 30px;
+#profile-image {
+    width: 90%;
 }
 
-.about h3 {
-    padding-top: 30px; 
-    font-size: 1.75em;
+/************************* FOOTER STYLES ***********************/
+
+footer .contact-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.about h4 {
-    font-size: 1.5em;
-    padding: 20px 0;
+footer .contact-info {
+    width: 60%;
 }
 
-.about p {
-    padding: 0 20px 30px 20px;
+footer h4 {
+    width: 100%
 }
 
-/************************* Footer Styles (Mobile) ***********************/
-
-footer {
-    background-color: #001F3F;
-    color:#FFFFFF;
-    margin: 0;
+footer .follow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-footer h2 {
-    padding-top: 80px;
+footer .social-icons {
+    display: flex;
+    justify-content: space-around;
 }
 
-.hire-me h3 {
-    padding: 0;
-    margin: 60px 0 30px 0;
+footer ul {
+    width: 100%;
 }
 
-.hire-me p {
-    padding: 0;
-    margin: 0;
+footer .social-icons li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.follow-me h3,
-.meet-up h3 {
-    padding: 60px 0 30px 0;
-}
-
-.linkedin {
-    margin-right: 10px;
-}
-
-.github {
-    margin-left: 10px;
-}
-
-.meet-up .riverside {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.meet-up .socal {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 30px;
+footer .social-icons li i {
+    font-size: 1.875rem;
 }
 
 .copyright {
-    padding: 30px 0;
-    background-color: #A5CCE8;
-    color:#001F3F;
-}
-
-.copyright span {
-    font-family: 'Homemade Apple', cursive;
-
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 /************************** Tablet Styles *******************************/
