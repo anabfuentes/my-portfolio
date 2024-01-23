@@ -528,7 +528,7 @@ header .content-wrapper {
 }
 
 /*about*/
-#about .content-wrapper {
+.about-content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -615,7 +615,7 @@ h5 {
 }
 
 p {
-    font-size: 1.25px;
+    font-size: 1.25rem;
 }
 
 .project-link,
@@ -697,5 +697,57 @@ h2 {
 }
 
 /*header*/
+
+header .content-wrapper {
+    justify-content: flex-end;
+}
+
+header nav {
+    justify-content: flex-end;
+    width: 45%;
+}
+
+nav ul li a {
+    padding: 10px 10px;
+}
+
+.intro-text {
+    max-width: 95%;
+}
+
+.intro-text h2 {
+    max-width: 70%;
+}
+
+/*portfolio*/
+.project {
+    width: 30%;
+}
+
+/*skills*/
+.skill,
+.tool {
+    width: 30%;
+}
+
+/*about*/
+.about-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about figure {
+    width: 35%;
+    margin-top: 0;
+}
+
+.about-info {
+    width: 58%;
+}
+
+/*contact*/
+footer .content-wrapper {
+    max-width: 70%;
+}
 
 }
