@@ -254,7 +254,7 @@ header h2 {
 .project-wrapper {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: baseline;
     flex-flow: row wrap;
 }
 
