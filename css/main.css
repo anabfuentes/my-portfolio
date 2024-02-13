@@ -1,8 +1,15 @@
 /*************************** Global Styles *******************************/
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;  
+    }
+}
+
 html {
     color:#0D0D0D;
     font-size: 1em;
     line-height: 1.4;
+
 }
 
 body {
