@@ -22,7 +22,6 @@ body {
 
 ul {
     list-style: none;
-    font-family: 'Fraunces', serif;
     margin: 0;
     padding: 0;
 }
@@ -30,6 +29,9 @@ ul {
 a {
     color: #0D0D0D;
     text-decoration: none;
+    line-height: 1.5;
+    font-size: 1.25em;
+
 }
 
 h1 {
