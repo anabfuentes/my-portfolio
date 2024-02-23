@@ -309,7 +309,7 @@ header h2 {
 }
 
 #profile-image {
-  width: 90%;
+  width: 50%;
 }
 
 /**************************** FOOTER STYLES ****************************/
@@ -323,6 +323,10 @@ footer .contact-wrapper {
 
 footer .contact-info {
   width: 60%;
+}
+
+footer .contact-info a {
+  font-size: .75em;
 }
 
 footer h4 {
@@ -404,7 +408,7 @@ hr {
   }
 
   span {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   /*Margins*/
@@ -543,6 +547,10 @@ hr {
     flex-flow: row wrap;
   }
 
+  #profile-image {
+    width: 80%;
+  }
+
   #about figure {
     width: 60%;
   }
@@ -552,7 +560,11 @@ hr {
   }
 
   /*Footer Styles*/
-  .contact-wrapper {
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  footer .contact-wrapper {
     display: flex;
     justify-content: space-between;
   }
@@ -577,7 +589,7 @@ hr {
     font-size: 2rem;
   }
 
-  footer .copyright {
+  footer #copyright {
     width: 100%;
   }
 }
@@ -612,7 +624,7 @@ hr {
   }
 
   .about-info h4 {
-    font-size: 3.4rem;
+    font-size: 3rem;
     text-align: left;
   }
 
@@ -740,6 +752,10 @@ hr {
     justify-content: space-between;
   }
 
+  #profile-image {
+    width: 100%;
+  }
+
   #about figure {
     width: 35%;
     margin-top: 0;
@@ -749,8 +765,10 @@ hr {
     width: 58%;
   }
 
-  /*Footer Styles*/
-  footer .content-wrapper {
-    max-width: 70%;
+  /*footer styles*/
+
+  footer .contact-info a {
+    font-size: 1.25em;
   }
+
 }
