@@ -566,7 +566,7 @@ hr {
 
   footer .contact-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   footer .contact-info {
@@ -596,7 +596,7 @@ hr {
 
 /**************************** Desktop Styles ********************************/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 2500px) {
   .content-wrapper {
     max-width: 1450px;
   }
