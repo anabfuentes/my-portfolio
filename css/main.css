@@ -1,105 +1,103 @@
 /*************************** Global Styles *******************************/
 @media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;  
-    }
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 html {
-    color:#0D0D0D;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #0d0d0d;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 body {
-    font-size: 1em;
-    font-family: "Jost", sans-serif;
-    color:#0D0D0D;
-    background-color: #D9D7CC;
+  font-size: 1em;
+  font-family: "Jost", sans-serif;
+  color: #0d0d0d;
+  background-color: #d9d7cc;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #0D0D0D;
-    text-decoration: none;
-    line-height: 1.5;
-    font-size: 1.25em;
+  color: #0d0d0d;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1.25em;
 }
 
 h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 2rem;
-    line-height: 1.5;
-    width: 100%;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.5;
+  width: 100%;
 }
 
 h2 {
-    font-size: 1.25rem;
-    width: 100%;
+  font-size: 1.25rem;
+  width: 100%;
 }
 
 h3 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h4 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 h5 {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
- 
-h3, 
+h3,
 h4,
 h5 {
-    line-height: 1.5;
-    width: 100%;
-    font-family: "Archivo", sans-serif;
-    text-transform: uppercase;
+  line-height: 1.5;
+  width: 100%;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
 }
 
 p,
 li {
-    line-height: 1.5;
-    font-size: .75rem;
+  line-height: 1.5;
+  font-size: 0.75rem;
 }
 
 span {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 img {
-    width: 100%;
-    border: 3px solid #0D0D0D;
+  width: 100%;
+  border: 3px solid #0d0d0d;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 button {
-    border: 1px solid #0D0D0D;
-    background-color: #0D0D0D;
-    color:#D9D7CC;
-    margin-top: 30px;
-    padding: 5px;
-    font-family: "Jost", sans-serif;
-    text-transform: uppercase;
+  border: 1px solid #0d0d0d;
+  background-color: #0d0d0d;
+  color: #d9d7cc;
+  margin-top: 30px;
+  padding: 5px;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
 }
-  
 
 /*************************** STRUCTURAL STYLES ******************************/
 
@@ -108,20 +106,20 @@ header,
 #skills,
 #about,
 footer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
 }
 
 .content-wrapper {
-    width: 85%;
+  width: 85%;
 }
 
 #work p,
 #about p {
-    width: 100%;
-    text-align: left;
+  width: 100%;
+  text-align: left;
 }
 
 h1,
@@ -129,121 +127,120 @@ h2,
 h3,
 h4,
 h5 {
-    margin: 0;
+  margin: 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    padding-top: 30px;
-    padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 nav {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 #work {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 #skills {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 #about {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #about h5 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 footer {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 h2 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h4 {
-    margin: 20px 0 40px 0;
+  margin: 20px 0 40px 0;
 }
 
 .project-description {
-    margin: 0 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
 .project-link {
-    margin: 40px 0 60px 0;
+  margin: 40px 0 60px 0;
 }
 
 figure {
-    margin: 20px 0 40px 0;
+  margin: 20px 0 40px 0;
 }
 
 .skills-header {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-info h3 {
-    margin: 40px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 
 .about-text {
-    margin: 0 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
 #contact h3 {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .contact-info {
-    margin: 0 0 60px 0;
+  margin: 0 0 60px 0;
 }
 
 .contact-header {
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 /*********************** BASE HEADER STYLES *************************/
 
 header {
-    padding-top: 30px;
-    padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 header nav ul li {
-    font-size: .75rem;
-    margin-bottom: 20px;
-    font-family: "Archivo", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 header nav ul {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 header h1 {
-    width: 100%;
+  width: 100%;
 }
 
 header h2 {
-    width: 100%;
-    font-weight: 500;
+  width: 100%;
+  font-weight: 500;
 }
-
 
 /*********************** MAIN PAGE - MOBILE STYLES ************************/
 
@@ -251,515 +248,509 @@ header h2 {
 
 #work,
 #skills {
-    width: 100%;
+  width: 100%;
 }
 
 #work h3 {
-    width: 100%;
+  width: 100%;
 }
 
 .project-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-flow: row wrap;
 }
 
 .project {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project h4 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .project figure {
-    width: 100%;
+  width: 100%;
 }
 
 #skills {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 #skills h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #skills h4 {
-    margin: 40px 0 40px 0;
-    font-weight: bold;
+  margin: 40px 0 40px 0;
+  font-weight: bold;
 }
 
 .lang-wrapper p,
 .tool-wrapper p {
-    border: .5px solid #595959;
-    padding: 15px 0;
-    margin: 20px 0;
+  border: 0.5px solid #595959;
+  padding: 15px 0;
+  margin: 20px 0;
 }
 
-
 .tool {
-    width: 100%;
+  width: 100%;
 }
 
 /*About*/
 
 #about {
-    width: 100%;
+  width: 100%;
 }
 
 #profile-image {
-    width: 90%;
+  width: 90%;
 }
 
 /**************************** FOOTER STYLES ****************************/
 
 footer .contact-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 footer .contact-info {
-    width: 60%;
+  width: 60%;
 }
 
 footer h4 {
-    width: 100%
+  width: 100%;
 }
 
 footer .follow {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 footer .social-icons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer ul {
-    width: 100%;
+  width: 100%;
 }
 
 footer .social-icons li {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .social-icons li i {
-    font-size: 1.875rem;
+  font-size: 1.875rem;
 }
 
 hr {
-    border-top: .5px solid #595959;
+  border-top: 0.5px solid #595959;
 }
 
 .copyright {
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
-    text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 /****************************** Tablet Styles ********************************/
 
 @media only screen and (min-width: 768px) {
+  /*General Styles*/
 
-/*General Styles*/
-
-.content-wrapper {
+  .content-wrapper {
     max-width: 640px;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 2.5rem;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 1.75rem;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 2rem;
-}
+  }
 
-h4 {
+  h4 {
     font-size: 1.15rem;
-}
+  }
 
-h5 {
+  h5 {
     font-size: 1.3rem;
-}
+  }
 
-header nav ul li {
+  header nav ul li {
     font-size: 1rem;
-}
+  }
 
-.about-info h4 {
+  .about-info h4 {
     font-size: 2rem;
-}
+  }
 
-span {
+  span {
     font-size: 1rem;
-}
+  }
 
-/*Margins*/
+  /*Margins*/
 
-header {
+  header {
     padding-top: 60px;
     padding-bottom: 80px;
-}
+  }
 
-nav {
+  nav {
     margin: 0 0 80px 0;
-}
+  }
 
-header nav ul li {
+  header nav ul li {
     padding-left: 15px;
-}
+  }
 
-#work {
+  #work {
     margin-top: 80px;
-}
+  }
 
-#skills {
+  #skills {
     padding-bottom: 80px;
-}
+  }
 
-footer {
+  footer {
     padding-top: 140px;
     padding-bottom: 80px;
-}
+  }
 
-#about {
+  #about {
     padding: 80px 0;
-}
+  }
 
-
-h2 {
+  h2 {
     margin-top: 80px;
-}
+  }
 
-.portfolio-header {
+  .portfolio-header {
     margin: 0 0 60px 0;
-}
+  }
 
-.project-description {
+  .project-description {
     margin: 0 0 30px 0;
-}
+  }
 
-.project-link {
+  .project-link {
     margin: 40px 0 60px 0;
-}
+  }
 
-#skills {
+  #skills {
     padding-top: 80px;
-}
+  }
 
-.skills-header {
+  .skills-header {
     margin-bottom: 40px;
-}
+  }
 
-#skills h4 {
+  #skills h4 {
     margin: 40px 0 20px 0;
-}
+  }
 
-.about-info h3 {
+  .about-info h3 {
     margin: 80px 0;
-}
+  }
 
-.about-info h4 {
+  .about-info h4 {
     margin: 0 0 60px 0;
-}
+  }
 
-.about-text {
+  .about-text {
     margin: 0 0 30px 0;
-}
+  }
 
-.contact-info {
+  .contact-info {
     margin: 80px 0;
-}
+  }
 
-.contact-header {
+  .contact-header {
     margin: 0 0 30px 0;
-}
+  }
 
-/*Header*/
-header .content-wrapper {
+  /*Header*/
+  header .content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-}
+  }
 
-.intro-text {
+  .intro-text {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-}
+  }
 
-.intro-text h2 {
+  .intro-text h2 {
     max-width: 80%;
-}
+  }
 
-/*Portfolio*/
+  /*Portfolio*/
 
-.project-wrapper {
+  .project-wrapper {
     justify-content: space-around;
-}
+  }
 
-.project {
+  .project {
     width: 45%;
     align-items: center;
-}
+  }
 
-.project-description {
+  .project-description {
     width: 95%;
-}
+  }
 
-.lang-wrapper,
-.tool-wrapper {
+  .lang-wrapper,
+  .tool-wrapper {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
-}
+  }
 
-.skill,
-.tool {
+  .skill,
+  .tool {
     width: 45%;
-}
+  }
 
-.lang-wrapper p,
-.tool-wrapper p {
+  .lang-wrapper p,
+  .tool-wrapper p {
     padding: 15px 0;
-}
+  }
 
-.about-content-wrapper {
+  .about-content-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-}
+  }
 
-#about figure {
+  #about figure {
     width: 60%;
-}
+  }
 
-.about-info h4 {
+  .about-info h4 {
     text-align: center;
-}
+  }
 
-/*Footer Styles*/
-.contact-wrapper {
+  /*Footer Styles*/
+  .contact-wrapper {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-footer .contact-info {
+  footer .contact-info {
     width: 33%;
-}
+  }
 
-footer ul {
+  footer ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     width: 100%;
-}
+  }
 
-footer .social-icons {
+  footer .social-icons {
     width: 12.5em;
-}
+  }
 
-footer .social-icons li i {
+  footer .social-icons li i {
     font-size: 2rem;
-}
+  }
 
-footer .copyright {
+  footer .copyright {
     width: 100%;
-}
-
+  }
 }
 
 /**************************** Desktop Styles ********************************/
 
 @media only screen and (min-width: 1200px) {
-
-.content-wrapper {
+  .content-wrapper {
     max-width: 1450px;
-}
+  }
 
-/*Font Sizes*/
+  /*Font Sizes*/
 
-h1 {
+  h1 {
     font-size: 4rem;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 2.25rem;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 2.5rem;
-}
+  }
 
-h4 {
+  h4 {
     font-size: 1.25rem;
-}
+  }
 
-h5 {
+  h5 {
     font-size: 1.5rem;
-}
+  }
 
-.about-info h4 {
+  .about-info h4 {
     font-size: 3.4rem;
     text-align: left;
-}
+  }
 
-.about-info h5 {
+  .about-info h5 {
     font-size: 1.8rem;
     text-align: left;
-}
+  }
 
-p {
+  p {
     font-size: 1.25rem;
-}
+  }
 
-.project-link,
-.lang-wrapper p,
-.tool-wrapper p {
+  .project-link,
+  .lang-wrapper p,
+  .tool-wrapper p {
     font-size: 1rem;
-}
+  }
 
-/*Margins*/
+  /*Margins*/
 
-header {
+  header {
     padding-top: 80px;
     padding-bottom: 140px;
-}
+  }
 
-nav {
+  nav {
     margin-bottom: 80px;
-}
+  }
 
-#work {
+  #work {
     padding-top: 80px;
-}
+  }
 
-#skills {
+  #skills {
     padding-bottom: 120px;
-}
+  }
 
-#about {
+  #about {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+  }
 
-.about-content-wrapper h3 {
+  .about-content-wrapper h3 {
     margin-bottom: 80px;
-}
+  }
 
-footer {
+  footer {
     padding: 140px 0 140px 0;
-}
+  }
 
-h2 {
+  h2 {
     margin: 40px 0 0 0;
-}
+  }
 
-.portfolio-header {
+  .portfolio-header {
     margin: 0 0 60px 0;
-}
+  }
 
-.project-description {
+  .project-description {
     margin: 0 0 30px 0;
-}
+  }
 
-.project-link {
+  .project-link {
     margin: 40px 0 80px 0;
-}
+  }
 
-#skills .content-wrapper {
+  #skills .content-wrapper {
     max-width: 900px;
-}
+  }
 
-.skills-header {
+  .skills-header {
     margin-bottom: 40px;
-}
+  }
 
-.about-info h4 {
+  .about-info h4 {
     margin: 0;
-}
+  }
 
-.about-info h5 {
+  .about-info h5 {
     margin: 40px 0;
-}
+  }
 
-.about-text {
+  .about-text {
     margin: 0 0 30px 0;
-}
+  }
 
-.contact-info {
+  .contact-info {
     margin: 80px 0 80px 0;
-}
+  }
 
-.contact-header {
+  .contact-header {
     margin: 0 0 30px 0;
-}
+  }
 
-/*Header Styles*/
+  /*Header Styles*/
 
-header .content-wrapper {
+  header .content-wrapper {
     justify-content: flex-end;
-}
+  }
 
-nav ul li a {
+  nav ul li a {
     padding: 10px 10px;
-}
+  }
 
-.intro-text {
+  .intro-text {
     max-width: 95%;
-}
+  }
 
-.intro-text h2 {
+  .intro-text h2 {
     max-width: 70%;
-}
+  }
 
-/*Portfolio*/
-.project {
+  /*Portfolio*/
+  .project {
     width: 30%;
-}
+  }
 
-.skill,
-.tool {
+  .skill,
+  .tool {
     width: 30%;
-}
+  }
 
-.about-content-wrapper {
+  .about-content-wrapper {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-#about figure {
+  #about figure {
     width: 35%;
     margin-top: 0;
-}
+  }
 
-.about-info {
+  .about-info {
     width: 58%;
-}
+  }
 
-/*Footer Styles*/
-footer .content-wrapper {
+  /*Footer Styles*/
+  footer .content-wrapper {
     max-width: 70%;
-}
-
+  }
 }

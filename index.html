@@ -1,236 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
 
     <title>Ana Fuentes</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/ab9911c594.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <script src="https://kit.fontawesome.com/ab9911c594.js" crossorigin="anonymous"></script>
-    
-</head>
-
-<body>
-
-<header>
-    <div class="content-wrapper">
+  <body>
+    <header>
+      <div class="content-wrapper">
         <div class="nav-wrapper">
-            <nav>
-                <ul>
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="#work">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-         <div class="intro-text">
-         <h1>Hi, I'm Ana Fuentes.</h1>
-         <h2>I'm a Front End Web Developer based in sunny Southern California who loves creating beautiful and functional websites.</h2>
+        <div class="intro-text">
+          <h1>Hi, I'm Ana Fuentes.</h1>
+          <h2>
+            I'm a Front End Web Developer based in sunny Southern California who
+            loves creating beautiful and functional websites.
+          </h2>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<main>
-    <article class="portfolio">
+    <main>
+      <article class="portfolio">
         <section id="work">
-            <div class="content-wrapper">
-                <h3 class="portfolio-header">Projects</h3>
-                <div class="project-wrapper">
+          <div class="content-wrapper">
+            <h3 class="portfolio-header">Projects</h3>
+            <div class="project-wrapper">
+              <div class="project">
+                <figure class="all-jubilee">
+                  <a
+                    href="https://anabfuentes.github.io/Jubilee-Austen/"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/jubilee-austen.png"
+                      alt="Jubilee Austen's portfolio homepage"
+                    />
+                  </a>
+                  <h4>Jubilee Austen</h4>
+                  <p class="project-description">
+                    A one-page responsive website created with the use of HTML5
+                    and CSS3 to code and style the portfolio site to the
+                    specifications of the design comp. Chrome Devtools, text
+                    editors, and flexbox helped me bring this project to
+                    fruition!
+                  </p>
+                  <p><strong>Skills:</strong> HTML5, CSS3, Flexbox</p>
+                  <p><strong>Tools:</strong> Chrome Devtools, Text Editors</p>
+                  <form
+                    action="https://anabfuentes.github.io/Jubilee-Austen/"
+                    method="get"
+                    target="_blank"
+                  >
+                    <button class="project-link" type="submit">View</button>
+                  </form>
+                </figure>
+              </div>
 
-                    <div class="project">
-                        <figure class="all-jubilee">
-                            <a href="https://anabfuentes.github.io/Jubilee-Austen/" target="_blank">
-                                <img src="images/jubilee-austen.png" alt="Jubilee Austen's portfolio homepage">
-                            </a>
-                            <h4>Jubilee Austen</h4>
-                            <p class="project-description">A one-page responsive website created with the use of HTML5
-                                and CSS3 to code and style the portfolio site to the specifications of the design comp.
-                                Chrome Devtools, text editors, and flexbox helped me bring this project to fruition!</p>
-                            <p><strong>Skills:</strong> HTML5, CSS3, Flexbox</p>
-                            <p><strong>Tools:</strong> Chrome Devtools, Text Editors</p>
-                            <form action="https://anabfuentes.github.io/Jubilee-Austen/" method="get" target="_blank">
-                                <button class="project-link" type="submit">View</button>
-                            </form>
-                        </figure>
-                    </div>
+              <div class="project">
+                <figure class="all-unplugged">
+                  <a
+                    href="https://anabfuentes.github.io/unplugged-site/"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/unplugged-retreat.png"
+                      alt="Unplugged Retreat homepage"
+                    />
+                  </a>
+                  <h4>Unplugged</h4>
+                  <p class="project-description">
+                    A multi-page responsive website coded with Flebox to manage
+                    it's multiple sections. Built mobile-first, the design is
+                    responsive and adapts to tablets and desktops for a
+                    customized user experience.
+                  </p>
+                  <p>
+                    <strong>Skills:</strong> HTML5, CSS3, Flexbox, Media Queries
+                  </p>
+                  <p><strong>Tools:</strong> GitHub, Text Editors</p>
+                  <form
+                    action="https://anabfuentes.github.io/unplugged-site/"
+                    method="get"
+                    target="_blank"
+                  >
+                    <button class="project-link" type="submit">View</button>
+                  </form>
+                </figure>
+              </div>
 
-                    <div class="project">
-                        <figure class="all-unplugged">
-                            <a href="https://anabfuentes.github.io/unplugged-site/" target="_blank">
-                                <img src="images/unplugged-retreat.png" alt="Unplugged Retreat homepage">
-                            </a>
-                            <h4>Unplugged</h4>
-                            <p class="project-description">A multi-page responsive website coded with Flebox to manage
-                                it's multiple sections. Built mobile-first, the design is responsive and adapts to
-                                tablets and desktops for a customized user experience.</p>
-                            <p><strong>Skills:</strong> HTML5, CSS3, Flexbox, Media Queries</p>
-                            <p><strong>Tools:</strong> GitHub, Text Editors</p>
-                            <form action="https://anabfuentes.github.io/unplugged-site/" method="get" target="_blank">
-                                <button class="project-link" type="submit">View</button>
-                            </form>
-                        </figure>
-                    </div>
+              <div class="project">
+                <figure class="all-guess-game">
+                  <a
+                    href="https://anabfuentes.github.io/guess-the-word-game/"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/guess-game.png"
+                      alt="Guess the Word Game homepage"
+                    />
+                  </a>
+                  <h4>Guess the Word Game</h4>
+                  <p class="project-description">
+                    Players guess the word by entering one letter at a time. If
+                    the player guesses all the letters correctly before they use
+                    up their guesses, they win! I was able to use my skills with
+                    vanilla JavaScript to manipulate the DOM and create this
+                    game.
+                  </p>
+                  <p><strong>Skills:</strong> JavaScript, Manipulate the DOM</p>
+                  <p><strong>Tools:</strong> GitHub, JSON</p>
+                  <form
+                    action="https://anabfuentes.github.io/guess-the-word-game/"
+                    method="get"
+                    target="_blank"
+                  >
+                    <button class="project-link" type="submit">View</button>
+                  </form>
+                </figure>
+              </div>
 
-                    <div class="project">
-                        <figure class="all-guess-game">
-                            <a href="https://anabfuentes.github.io/guess-the-word-game/" target="_blank">
-                                <img src="images/guess-game.png" alt="Guess the Word Game homepage">
-                            </a>
-                            <h4>Guess the Word Game</h4>
-                            <p class="project-description">Players guess the word by entering one letter at a time. If
-                                the player guesses all the letters correctly before they use up their guesses, they win!
-                                I was able to use my skills with vanilla JavaScript to manipulate the DOM and create
-                                this game.</p>
-                            <p><strong>Skills:</strong> JavaScript, Manipulate the DOM</p>
-                            <p><strong>Tools:</strong> GitHub, JSON</p>
-                            <form action="https://anabfuentes.github.io/guess-the-word-game/" method="get"
-                                target="_blank">
-                                <button class="project-link" type="submit">View</button>
-                            </form>
-                        </figure>
-                    </div>
+              <div class="project">
+                <figure class="all-github-gallery">
+                  <a
+                    href="https://anabfuentes.github.io/github-repo-gallery/"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/github-gallery.png"
+                      alt="GitHub Repo Gallery homepage"
+                    />
+                  </a>
+                  <h4>GitHub Repo Gallery</h4>
+                  <p class="project-description">
+                    An interactive app that showcases my GitHub repos in a
+                    visually appealing format. Data is pulled from my GitHub
+                    portfolio to create the gallery. Visitors to the site can
+                    click on the repos to see more details.
+                  </p>
+                  <p>
+                    <strong>Skills:</strong> JavaScript, APIs, Manipulate the
+                    DOM
+                  </p>
+                  <p><strong>Tools:</strong> GitHub</p>
+                  <form
+                    action="https://anabfuentes.github.io/github-repo-gallery/"
+                    method="get"
+                    target="_blank"
+                  >
+                    <button class="project-link" type="submit">View</button>
+                  </form>
+                </figure>
+              </div>
 
-                    <div class="project">
-                        <figure class="all-github-gallery">
-                            <a href="https://anabfuentes.github.io/github-repo-gallery/" target="_blank">
-                                <img src="images/github-gallery.png" alt="GitHub Repo Gallery homepage">
-                            </a>
-                            <h4>GitHub Repo Gallery</h4>
-                            <p class="project-description">An interactive app that showcases my GitHub repos in a
-                                visually appealing format. Data is pulled from my GitHub portfolio to create the
-                                gallery. Visitors to the site can click on the repos to see more details.</p>
-                            <p><strong>Skills:</strong> JavaScript, APIs, Manipulate the DOM</p>
-                            <p><strong>Tools:</strong> GitHub</p>
-                            <form action="https://anabfuentes.github.io/github-repo-gallery/" method="get"
-                                target="_blank">
-                                <button class="project-link" type="submit">View</button>
-                            </form>
-                        </figure>
-                    </div>
-
-                    <div class="project">
-                        <figure class="all-sticky-note">
-                            <a href="https://x3ky6q.csb.app/" target="_blank">
-                                <img src="images/stickies.png" alt="Sticky Note App homepage">
-                            </a>
-                            <h4>Sticky Notes App</h4>
-                            <p class="project-description">An interactive app that allows users to create sticky notes
-                                to keep track of to-do’s and reminders. The notes are saved to local storage so the user
-                                can come back to their notes and JSX ES6 manages data flow to easily add, delete, and
-                                search notes.</p>
-                            <p><strong>Skills:</strong> React, JSX, ES6, Managing Data Flow, Manipulate the DOM</p>
-                            <p><strong>Tools:</strong> CodeSandbox, Props, State</p>
-                            <form action="https://x3ky6q.csb.app/" method="get" target="_blank">
-                                <button class="project-link" type="submit">View</button>
-                            </form>
-                        </figure>
-                    </div>
-
-                </div>
+              <div class="project">
+                <figure class="all-sticky-note">
+                  <a href="https://x3ky6q.csb.app/" target="_blank">
+                    <img
+                      src="images/stickies.png"
+                      alt="Sticky Note App homepage"
+                    />
+                  </a>
+                  <h4>Sticky Notes App</h4>
+                  <p class="project-description">
+                    An interactive app that allows users to create sticky notes
+                    to keep track of to-do’s and reminders. The notes are saved
+                    to local storage so the user can come back to their notes
+                    and JSX ES6 manages data flow to easily add, delete, and
+                    search notes.
+                  </p>
+                  <p>
+                    <strong>Skills:</strong> React, JSX, ES6, Managing Data
+                    Flow, Manipulate the DOM
+                  </p>
+                  <p><strong>Tools:</strong> CodeSandbox, Props, State</p>
+                  <form
+                    action="https://x3ky6q.csb.app/"
+                    method="get"
+                    target="_blank"
+                  >
+                    <button class="project-link" type="submit">View</button>
+                  </form>
+                </figure>
+              </div>
             </div>
+          </div>
         </section>
 
         <section id="skills">
-            <div class="content-wrapper">
-                <h3 class="skills-header">Skills</h3>
-                <h4>Developer Skills</h4>
-                <div class="lang-wrapper">
-                    <p class="skill">HTML5</p>
-                    <p class="skill">CSS3</p>
-                    <p class="skill">JavaScript</p>
-                    <p class="skill">React</p>
-                    <p class="skill">ES6</p>
-                    <p class="skill">JSX</p>
-                    <p class="skill">GitHub</p>
-                    <p class="skill">Git and the Command Line</p>
-                    <p class="skill">Flexbox</p>
-                    <p class="skill">Responsive Typography</p>
-                    <p class="skill">Media Queries</p>
-                    <p class="skill">Version Control</p>
-                    <p class="skill">APIs</p>
-                    <p class="skill">Manipulate the DOM</p>
-                    <p class="skill">Managing Data Flow</p>
-                </div>
-                <h4>Tech Stack</h4>
-                <div class="tool-wrapper">
-                    <p class="tool">Git</p>
-                    <p class="tool">GitHub</p>
-                    <p class="tool">CodeSandbox</p>
-                    <p class="tool">Text Editors</p>
-                    <p class="tool">Photoshop</p>
-                    <p class="tool">Chrome Devtools</p>
-                </div>
+          <div class="content-wrapper">
+            <h3 class="skills-header">Skills</h3>
+            <h4>Developer Skills</h4>
+            <div class="lang-wrapper">
+              <p class="skill">HTML5</p>
+              <p class="skill">CSS3</p>
+              <p class="skill">JavaScript</p>
+              <p class="skill">React</p>
+              <p class="skill">ES6</p>
+              <p class="skill">JSX</p>
+              <p class="skill">GitHub</p>
+              <p class="skill">Git and the Command Line</p>
+              <p class="skill">Flexbox</p>
+              <p class="skill">Responsive Typography</p>
+              <p class="skill">Media Queries</p>
+              <p class="skill">Version Control</p>
+              <p class="skill">APIs</p>
+              <p class="skill">Manipulate the DOM</p>
+              <p class="skill">Managing Data Flow</p>
             </div>
+            <h4>Tech Stack</h4>
+            <div class="tool-wrapper">
+              <p class="tool">Git</p>
+              <p class="tool">GitHub</p>
+              <p class="tool">CodeSandbox</p>
+              <p class="tool">Text Editors</p>
+              <p class="tool">Photoshop</p>
+              <p class="tool">Chrome Devtools</p>
+            </div>
+          </div>
         </section>
-    </article>
+      </article>
 
-    <section id="about">
+      <section id="about">
         <div class="content-wrapper">
-            <div class="about-content-wrapper">
-                <h3>About Me</h3>
-                <figure>
-                    <img id="profile-image" src="images/headshot.png" alt="Portrait of Ana Fuentes">
-                </figure>
-                <div class="about-info">
-                    <h4>Hello — <br>I'm Ana Fuentes.</h4>
-                    <h5>I'm a Front End Web Developer with a passion for creating engaging and responsive websites.</h5>
-                    <p class="about-text">I have an extensive background in customer support and e-commerce where I
-                        worked with clients and an end product of web development; e-commerce interfaces.
-                        During this time I became increasingly curious as to how these interfaces functioned as I
-                        utilized them and gained guest insight towards them.
-                        My main interest lay in how it would be possible to execute ideas that add value to guests as
-                        well as correct existing issues. These curiosities ultimately led me to retrain in tech!</p>
-                    <p class="about-text">When I’m not coding or in an art class, you can find me drinking coffee,
-                        cuddling with my cats (Anubis and Cleo), and watching an old movie on the Criterion Collection
-                        channel.</p>
-                    <p><span>I’m excited to work with you!</span></p>
-                </div>
+          <div class="about-content-wrapper">
+            <h3>About Me</h3>
+            <figure>
+              <img
+                id="profile-image"
+                src="images/headshot.png"
+                alt="Portrait of Ana Fuentes"
+              />
+            </figure>
+            <div class="about-info">
+              <h4>Hello — <br />I'm Ana Fuentes.</h4>
+              <h5>
+                I'm a Front End Web Developer with a passion for creating
+                engaging and responsive websites.
+              </h5>
+              <p class="about-text">
+                I have an extensive background in customer support and
+                e-commerce where I worked with clients and an end product of web
+                development; e-commerce interfaces. During this time I became
+                increasingly curious as to how these interfaces functioned as I
+                utilized them and gained guest insight towards them. My main
+                interest lay in how it would be possible to execute ideas that
+                add value to guests as well as correct existing issues. These
+                curiosities ultimately led me to retrain in tech!
+              </p>
+              <p class="about-text">
+                When I’m not coding or in an art class, you can find me drinking
+                coffee, cuddling with my cats (Anubis and Cleo), and watching an
+                old movie on the Criterion Collection channel.
+              </p>
+              <p><span>I’m excited to work with you!</span></p>
             </div>
+          </div>
         </div>
-    </section>
-</main>
+      </section>
+    </main>
 
-<footer id="contact">
-    <div class="content-wrapper">
+    <footer id="contact">
+      <div class="content-wrapper">
         <h3>Get in Touch</h3>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                <h4 class="contact-header">Hire Me</h4>
-                <a href="tel:951-441-0929" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">951-441-0929</a>
-                <a href="mailto:helloafuentes@gmail.com">helloafuentes@gmail.com</a>
-            </div>
-            <div class="contact-info follow">
-                <h4 class="contact-header">Follow Me</h4>
-                <ul class="social-icons">
-                <li><a href="https://www.linkedin.com/in/ana-fuentes-a84902160/" target="_blank"><i class="fa-brands fa-linkedin fa-sm linkedin"></i></a></li>
-                <li><a href="https://github.com/anabfuentes" target="_blank"><i class="fa-brands fa-github fa-sm github"></i></a></li>
-                </ul>
-            </div>
-            <div class="contact-info meet">
-                <h4 class="contact-header">Let's chat code and grab a coffee</h4>
-                <p>Currently based in Riverside, California</p>
-                <hr>
-                <p>Open to meeting in person all over Southern California</p>
-            </div>
-    </div>
-        
-<section id="copyright">
-<div class="copyright">
-    <p>Copyright 2023 | Ana Fuentes</p>
-</div>
-</section>
-</footer>
-
-</body>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h4 class="contact-header">Hire Me</h4>
+            <a href="tel:951-441-0929">951-441-0929</a>
+            <a href="mailto:helloafuentes@gmail.com">helloafuentes@gmail.com</a>
+          </div>
+          <div class="contact-info follow">
+            <h4 class="contact-header">Follow Me</h4>
+            <ul class="social-icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ana-fuentes-a84902160/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin fa-sm linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/anabfuentes" target="_blank"
+                  ><i class="fa-brands fa-github fa-sm github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-info meet">
+            <h4 class="contact-header">Let's chat code and grab a coffee</h4>
+            <p>Currently based in Riverside, California</p>
+            <hr />
+            <p>Open to meeting in person all over Southern California</p>
+          </div>
+        </div>
+      </div>
+      <section id="copyright">
+        <div class="copyright">
+          <p>Copyright 2023 | Ana Fuentes</p>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
