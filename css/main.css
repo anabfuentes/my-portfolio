@@ -15,7 +15,7 @@ body {
   font-size: 1em;
   font-family: "Jost", sans-serif;
   color: #0d0d0d;
-  background-color: #d9d7cc;
+  background-color: #F4E2DE;
 }
 
 ul {
@@ -624,7 +624,7 @@ hr {
   }
 
   .about-info h4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
   }
 
@@ -700,7 +700,7 @@ hr {
   }
 
   .about-info h4 {
-    margin: 0;
+    margin: 0 0 30px 0;
   }
 
   .about-info h5 {
